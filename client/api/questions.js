@@ -46,13 +46,13 @@ var questions = [
     type: 'intuition'
   },
   {
-    question: 'You rely more on your experience than your imagination.',
+    question: 'It is better to rely on experience than imagination.',
     type: 'sensing'
   }, {
     question: 'You tend to get bored when reading highly theoretical books.',
     type: 'sensing'
   }, {
-    question: 'You do not consider yourself to be a dreamer.',
+    question: 'Traditions are an important part of society and we should do our best to uphold them.',
     type: 'sensing'
   },
   {
@@ -68,7 +68,7 @@ var questions = [
     type: 'thinking'
   },
   {
-    question: 'In debates, you value truth over people\'s sensitivities.',
+    question: 'In debates, truth is more important than people\'s sensitivities.',
     type: 'thinking'
   }, {
     question: 'You trust your sense of logic and reason more than your emotions.',
@@ -82,7 +82,7 @@ var questions = [
     type: 'feeling'
   },
   {
-    question: 'You often feel as though your emotions control you more than you control them.',
+    question: 'You sometimes feel as though your emotions control you more than you control them.',
     type: 'feeling'
   },
   {
@@ -90,7 +90,7 @@ var questions = [
     type: 'feeling'
   },
   {
-    question: 'Having a messy inbox does not bother you much.',
+    question: 'Having a messy inbox does not bother you very much.',
     type: 'prospecting'
   },
   {

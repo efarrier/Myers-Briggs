@@ -54,7 +54,7 @@ function Question (props) {
           className="next-button"
           type="submit"
           form="question-form"
-          value="Next">NEXT QUESTION
+          value="Next">&#8594;
         </button>
       </div>
     </form>
