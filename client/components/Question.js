@@ -1,6 +1,5 @@
 import React from 'react';
 import Count from './Count'
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
 function Question (props) {
   return (

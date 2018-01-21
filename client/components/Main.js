@@ -3,6 +3,7 @@ import Header from './Header'
 import Question from './Question'
 import Result from './Result';
 import questions from '../api/questions'
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
 export default class Main extends Component {
   constructor () {
@@ -82,6 +83,7 @@ export default class Main extends Component {
           handleClick={this.handleClick}
           handleNext={this.handleNextClick} />
         }
+
       </div>
     )
   }
