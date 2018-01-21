@@ -12,7 +12,7 @@ const Result = (props) => {
   if (judging > prospecting) result += 'J';
   else result += 'P';
   return (
-    <h1 className="question">{'You are an ' + result}</h1>
+    <h1 className="result">{'You are an ' + result + '!'}</h1>
   )
 }
 

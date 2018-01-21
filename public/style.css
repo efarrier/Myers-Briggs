@@ -1,6 +1,8 @@
 body {
   display: flex;
   flex-direction: column;
+  background-color: #cc667b;
+  font-family: 'Roboto Mono', monospace;
 }
 
 #header {
@@ -10,8 +12,10 @@ body {
 
 #logo {
   margin: auto;
-  padding: 2em;
+  padding: 1.5em;
+  font-size: 2.5em;
   text-align: center;
+  color: #e7e4e8;
 }
 
 nav {
@@ -24,8 +28,8 @@ nav {
 }
 
 #line-break {
-  height: 0.2em;
-  background-color: #49274A;
+  height: 0.1em;
+  background-color: #e7e4e8;
 }
 
 .wrapper {
@@ -35,10 +39,11 @@ nav {
 
 .question {
   margin: auto;
-  font-size: 2em;
+  font-size: 1.5em;
   padding: 1em;
   padding-top: 2em;
   text-align: center;
+  color: #e7e4e8
 }
 
 .answers {
@@ -59,22 +64,59 @@ nav {
   position: relative;
   padding: 1.5em;
   margin: 0.3em;
-  border: 1px solid black;
-  color: black;
-  background-color: white;
+  border: 2px dashed #e7e4e8;
+  color: #e7e4e8;
+  background-color: #cc667b;
   font-size: 1.5em;
+}
+
+.answer-choice button:hover {
+  background-color: #e7e4e8;
+  color: #cc667b;
+  border: 2px dashed #cc667b;
+}
+
+.answer-choice button:focus {
+  background-color: #e7e4e8;
+  color: #cc667b;
+  border: 2px dashed #cc667b;
 }
 
 .next-button {
   padding: 0.5em;
   margin: auto;
-  color: black;
-  background-color: white;
-  border: 1px solid black;
+  color: #e7e4e8;
+  background-color: #cc667b;
+  border: 2px dashed #e7e4e8;
+  border-radius: 5px;
   font-size: 1em;
 }
 
+.next-button:hover {
+  background-color: #e7e4e8;
+  color: #cc667b;
+  border: 2px dashed #cc667b;
+}
+
+.next-button:focus {
+  background-color: #e7e4e8;
+  color: #cc667b;
+  border: 2px dashed #cc667b;
+}
 .counter {
   margin: auto;
   padding-top: 1em;
+  color: #e7e4e8;
+}
+
+.answer-label {
+  color: #e7e4e8;
+}
+
+.result {
+  margin: auto;
+  padding: 1.5em;
+  font-size: 2.5em;
+  text-align: center;
+  color: #e7e4e8;
 }

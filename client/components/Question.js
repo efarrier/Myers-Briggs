@@ -1,9 +1,11 @@
 import React from 'react';
 import Count from './Count'
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
 function Question (props) {
   return (
     <form
+      key={props.count}
       id="question-form"
       onSubmit={props.handleNext}>
       <div className="wrapper">
@@ -56,7 +58,6 @@ function Question (props) {
           value="Next">NEXT QUESTION
         </button>
       </div>
-
     </form>
   )
 }
