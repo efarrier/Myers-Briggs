@@ -49,7 +49,7 @@ var questions = [
     question: 'It is better to rely on experience than imagination.',
     type: 'sensing'
   }, {
-    question: 'You tend to get bored when reading highly theoretical books.',
+    question: 'You often get bored when reading highly theoretical books.',
     type: 'sensing'
   }, {
     question: 'Traditions are an important part of society and we should do our best to uphold them.',
@@ -82,7 +82,7 @@ var questions = [
     type: 'feeling'
   },
   {
-    question: 'You sometimes feel as though your emotions control you more than you control them.',
+    question: 'You feel as though your emotions control you more than you control them.',
     type: 'feeling'
   },
   {
